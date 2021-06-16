@@ -222,7 +222,7 @@
 
     .topic{
 
-        position: fixed;
+        position: absolute;
         text-align: center;
         margin-top: -160px;
         margin-left: 115px;
@@ -230,7 +230,7 @@
     
     
     .settings{
-        position: fixed;
+        position: absolute;
         width: 50px;
         height: 50px;
          margin-top: -200px;
