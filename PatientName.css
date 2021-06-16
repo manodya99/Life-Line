@@ -151,3 +151,142 @@ img{
     text-align: center;
 }
 
+@media only screen and (max-width: 768px){
+
+   
+    body{
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+               
+    }
+    
+    .back{
+        text-decoration: none;
+        list-style-type: none;
+
+    
+    }
+    
+    .divv{
+        font-size: 65px;
+        margin-left: 25px;
+    }
+    
+    .divv .fa{
+        color: rgb(255, 255, 255);
+        font-size: 39px;
+
+    }
+    .divv .fa:hover{
+        color: rgb(50, 192, 248);
+        font-size: 45px;
+        transition: 0.5s;
+    }
+    
+    .settings{
+        width: 50px;
+        height: 50px;
+        margin-left: 315px;
+        margin-top: -55px;
+      
+    }
+    
+    .settings .fa{
+
+        font-size: 34px;
+        color: black;
+    }
+    
+    
+    ul{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        transform: translate(-50%,-50%);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,81,121,1) 50%, rgba(0,212,255,1) 100%);
+        width: 340px;
+        height: 80px;
+        border-radius:75px;
+    }
+    
+    ul li{
+        list-style: none;
+        margin-top: 19px;
+        margin-left: 1px;
+        padding-left: 20px;
+    }
+    
+    ul li a .fa{
+        font-size: 27px;
+        color: #333;
+        line-height: 80px;
+        transition: 0.5s;
+        padding-right:14px;
+        margin-top: -12px;
+        margin-left: 1px;
+    
+    }
+    ul li a span{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 53px;
+        left: 20px;
+        color: #333;
+        letter-spacing: 2px;
+        transition: 0.5s;
+    
+    
+        
+    }
+    
+    ul li a h3{
+        color: black;
+        margin-top:-20px;
+        margin-left: -8px;
+        font-size: 7px;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        display: absolute;
+        display: block;
+        width: 55px;
+        height: 60px;
+        background: #fff;
+        text-align: left;
+        padding-left: 15px;
+        transition: 0.5s;
+        box-shadow: -10px 10px 10px rgba(0,0,0,0.5); 
+        margin-top: -10px;
+        margin-left: 4px;
+        border-radius: 30%;
+        
+    }
+    
+    
+    
+    ul li a:hover{
+        transform: translate(10px,-5px);
+        box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+    }
+    
+    
+    .div0{
+        margin-top: 120px;
+        margin-left: 90px;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        
+    }
+
+   
+
+
+
+  }
