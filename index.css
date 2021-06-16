@@ -204,14 +204,11 @@
     margin-left: 20px;
 }
 
-@media (max-width:500px) {
+@media only screen and (max-width: 500px){
     .dash_main{
-        height: 660px;
+        background-repeat: repeat-x;
 
-         background-image: linear-gradient(rgb(23, 53, 223), rgb(92, 209, 255));
-    
-    
-    
+
         
     }
     
