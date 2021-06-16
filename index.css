@@ -206,8 +206,12 @@
 
 @media only screen and (max-width: 768px){
     .dash_main{
-        width: 800px;
-        background-repeat: repeat-y;
+       
+        margin: 0;
+        padding: 0;
+         background-image: linear-gradient(rgb(23, 53, 223), rgb(92, 209, 255));
+        background-repeat: repeat-x;
+    
 
 
 
@@ -285,13 +289,7 @@
     
     }
     
-.dash_main{
-    margin: 0;
-    padding: 0;
-     background-image: linear-gradient(rgb(23, 53, 223), rgb(92, 209, 255));
-    background-repeat: no-repeat;
-    height: 850px;
-}
+
 
 .col-1{
     position: relative;
