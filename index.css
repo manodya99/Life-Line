@@ -204,23 +204,24 @@
     margin-left: 20px;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 768px){
     .dash_main{
-        background-repeat: repeat-x;
+        width: 800px;
+        background-repeat: repeat-y;
+
 
 
         
     }
     
-
-    
+  
 
     .topic{
 
         position: fixed;
         text-align: center;
-        margin-top: -220px;
-        margin-left: 675px;
+        margin-top: -160px;
+        margin-left: 115px;
     }
     
     
@@ -229,7 +230,7 @@
         width: 50px;
         height: 50px;
          margin-top: -200px;
-        margin-left: 430px;
+        margin-left: 320px;
         font-size: 40px;
     }
     
@@ -251,6 +252,7 @@
         font-size: 11px;
         border-bottom:1px solid grey;
         list-style-type: none;
+        margin-left: -35px;
     
     }
     
@@ -263,7 +265,7 @@
     .button-tog{
         position: absolute;
         margin-top: 20px;
-        margin-left: 50px;
+        margin-left: 40px;
        
     }
     
@@ -295,21 +297,21 @@
     position: relative;
     height: 200px;
     margin: 200px auto;
-    left: -450px;
-    top: 130px;
+    left: -500px;
+    top: 50px;
 
 
 }
 .box1{
     
-    width: 60px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
     background-color: rgb(4, 3, 8);
     box-sizing: border-box;
     border-radius: 12px;
     margin-top: 60px;
-    margin-left: 0px;
-    left: 470px;
+    margin-left: -5px;
+    left: 37%;
     
 
 }
