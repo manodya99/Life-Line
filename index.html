@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <title>Dashboard</title>
+</head>
+
+<script type="text/javascript">
+function menu(){
+    document.getElementById('bar').classList.toggle('active');
+}
+</script>
+<body class="dash_main">
+
+    <div class="bar" id="bar" onclick="menu()">
+        <div class="button-tog">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li><a class="reg" href="./register.html">Register</a></li>
+            <li><a class="reg" href="./Find.html">Patient List</a></li>
+            <li><a >Find Patients</a></li>
+            <li><a>Dashboard</a></li>
+
+
+        </ul>
+        
+    </div>
+
+    <div>
+        <h1 class="topic">Dashboard</h1>
+    </div>
+    <div class="settings"><i class="fa fa-cog" aria-hidden="true"></i>
+
+        
+    </div>
+
+    <div class="col-1">
+        <div class="cl">
+            <div class="circl">
+                <img class="circle" src="./images/doctor.jfif" alt="">
+            </div>  
+            <div>
+                <h2 class="NameDr">Dr. Ajay Marwaha</h2>
+                <p class="des">MBBS, M.D, DNB (Trained) Nephrology</p>
+            </div>
+        </div>
+
+    
+        <div class="box1">
+            <a href="./Find.html">  <div class="icon1"><i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div class="con">
+                <h3>Find Patients</h3>
+            </div></a>
+          
+        </div>
+
+        <div class="box1">
+            <div class="icon1"><i class="fa fa-stethoscope" aria-hidden="true"></i>
+            </div>
+            <div class="con">
+                <h3>Appointments</h3>
+            </div>
+
+           
+        </div>
+
+        <div class="box1">
+            <div class="icon1"><i class="fa fa-comments" aria-hidden="true"></i>
+            </div>
+            <div class="con0">
+                <h3>Messages</h3>
+            </div>
+        </div>
+
+        <div class="box1">
+            <div class="icon1"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+
+            </div>
+            <div class="con1">
+                <h3>Calendar</h3>
+            </div>
+        </div>
+
+        <div class="box1">
+            <div class="icon1"><i class="fa fa-user-md" aria-hidden="true"></i>
+            </div>
+            <div class="con1">
+                <h3>Directory</h3>
+            </div>
+
+        </div>
+        <div class="box1">
+            <div class="icon1"><i class="fa fa-file-text" aria-hidden="true"></i>
+            </div>
+            <div class="con2">
+                <h3>Documents</h3>
+            </div>
+        </div>
+
+      
+
+        
+    </div>
+
+</body>
+</html>

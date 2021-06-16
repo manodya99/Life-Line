@@ -1,0 +1,100 @@
+body{
+    height: 100%;
+    background-image: url(./images/ward1.jpeg);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;padding: 0;
+
+}
+
+.back{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.topic{
+    font-family: 'Lora', serif;    font-size: 60px;
+    margin-top: 200px;
+    margin-left: 600px;
+   
+}
+
+.divv{
+    font-size: 65px;
+    margin-left: 25px;
+}
+
+.fa{
+    color: black;
+}
+.divv .fa:hover{
+    color: rgb(15, 15, 116);
+    font-size: 69px;
+    transition: 0.5s;
+}
+.div0{
+    margin-top: -50px;
+    margin-left: -40px;
+}
+
+
+
+.div1 .form{
+	background-color: rgba(0, 0, 0, 0.7);
+    width: 1300px;
+    height: 250px;
+    border-radius: 500px;
+    margin-left: -240px;
+    margin-top: 150px;
+    
+
+
+}
+
+
+
+.div1{
+    margin-left: 350px;
+}
+
+
+.search{
+    height: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 45px;
+
+    
+}
+
+.options{
+    height: 40px;
+    border-radius: 6px;
+    width: 150px;
+    outline: none;
+    margin-left: 30px;
+}
+
+
+
+.button {
+    background-color: rgb(246, 250, 35);
+    border-radius: 25px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 110px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 25px;
+    border-style: outset;
+  }
+  .button:hover {
+    box-shadow: 0 2px 2px 0 rgb(246, 250, 35);
+  }  
