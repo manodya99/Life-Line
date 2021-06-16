@@ -92,9 +92,123 @@ body{
     width: 110px;
     font-size: 15px;
     cursor: pointer;
-    margin-left: 25px;
+    margin-left: 585px;
     border-style: outset;
   }
   .button:hover {
     box-shadow: 0 2px 2px 0 rgb(246, 250, 35);
   }  
+
+
+  @media only screen and (max-width: 768px){
+
+    
+    body{
+        background-color: #a6cde2;
+        width: 100%;
+        height: 100%;
+        background-image: url(./images/ward1.jpeg);
+        position: absolute;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;padding: 0;
+        
+    
+    }
+    
+    .back{
+        text-decoration: none;
+        list-style-type: none;
+    
+    }
+    .topic{
+        font-family: 'Lora', serif;    font-size: 60px;
+        margin-top: 55px;
+        margin-left: 140px;
+        font-size: 30px;
+       
+    }
+    
+    .divv{
+        font-size: 35px;
+        margin-left: 25px;
+    }
+    
+    .fa{
+        color: black;
+    }
+    .divv .fa:hover{
+        color: rgb(15, 15, 116);
+        font-size: 69px;
+        transition: 0.5s;
+    }
+    .div0{
+        margin-top: -50px;
+        margin-left: -40px;
+    }
+    
+    
+    
+    .div1 .form{
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 350px;
+        height: 350px;
+        border-radius: 50px;
+        margin-left: -340px;
+        margin-top: 200px;
+        
+
+    
+    }
+    
+    
+    
+   
+    
+    
+    .search{
+        height: 15px;
+        padding: 10px;
+        border: none;
+        border-radius: 25px;
+        outline: none;
+        width: 200px;
+        margin-top: 25px;
+        margin-left: 65px;
+    
+        
+    }
+    
+    .options{
+        height: 30px;
+        border-radius: 6px;
+        width: 150px;
+        outline: none;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+    
+
+  
+    
+    .button {
+        background-color: rgb(246, 250, 35);
+        border-radius: 25px;
+        color: black;
+        padding: 15px 32px;
+        text-decoration: none;
+        width: 150px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left: 130px;
+        border-style: outset;
+      }
+      .button:hover {
+        box-shadow: 0 2px 2px 0 rgb(246, 250, 35);
+      }  
+
+
+
+  }
+
+  
